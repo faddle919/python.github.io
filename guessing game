@@ -1,0 +1,11 @@
+word = "place holder"
+guess = 0
+print("welcome to the guessing game try and guess my word")
+while guess != word:
+    guess = input("Enter Guess: ")
+    if (guess < word):
+        print("Guess higher!")
+    elif (guess > word):
+        print("Guess lower!")
+    else:
+        print("you won")
