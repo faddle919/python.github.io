@@ -1,0 +1,8 @@
+import time
+the_time = int(input("add time: "))
+time.sleep(the_time)
+restart = input("would you like to snooze? type ok for yes, type no to quit: ")
+if restart == "ok":
+    time.sleep(the_time/2)
+elif restart == "no":
+    quit()
